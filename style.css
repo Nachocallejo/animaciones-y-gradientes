@@ -12,7 +12,7 @@ img {
 }
 
 body {
-    background-color: rgb(39, 39, 39);
+    background: linear-gradient(to bottom, rgb(39, 39, 39), #f7edcb, rgb(39, 39, 39));
     font-family: "Roboto";
     color: white;
 
@@ -51,7 +51,7 @@ footer {
         z-index: 1;
         display: grid;
         grid-template-columns: 60% auto;
-        background-color: rgb(39, 39, 39);
+        /* background-color: rgb(39, 39, 39); */
         color: #f7edcb;
         font-size: medium;
         font-style: bold;
@@ -150,8 +150,8 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        position: sticky;
-        top: 0;
+        /*  position: sticky;
+        top: 0;  */
     }
 
     header h1 {
@@ -187,7 +187,7 @@ footer {
         color: black;
         overflow: visible;
         border-style: solid;
-        border-width: 1px;
+        border-width: 0px;
         background-color: #f7edcbd8;
         text-align: left;
         padding-left: 10px;
@@ -262,7 +262,26 @@ footer {
         text-align: center;
     }
 
+    .input {
+        padding: 2px;
+    }
 
+    .input1 {
+        color: #a7a7a7 ;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 15px 15px;
+        background: rgba(0, 0, 0, 0);
+        border: 1.5px solid;
+        border-color: #000000;
+        transition: all 1.5s ease;
+        position: relative;
+    }
+
+    .input1:hover {
+        background: #000000;
+        color: #a7a7a7 ;
+    }
 
 
     .imagencontacto {
